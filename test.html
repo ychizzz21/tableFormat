@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./table.css">
+</head>
+
+<body>
+
+  <table id="box"></table>
+
+  <script src="./tableFormat.js"></script>
+  <script>
+    var t1 = Ytable
+
+    t1.render({
+      elem: "box",  // 获取被渲染标签的id
+      col: [  // 设置表头数据
+        { title: "姓名", width: 100 },
+        { title: "性别", width: 100 },
+        { title: "年龄", width: 100 },
+        { title: "专业", width: 100 },
+        { title: "班级", width: 100 },
+      ],
+      content: [ // 设置内容数据
+        { first: "jeet1", second: "man", third: "39", fourth: "software", fifth: "class-10" },
+        { first: "jeet2", second: "man", third: "39", fourth: "software", fifth: "class-10" },
+        { first: "jeet3", second: "man", third: "39", fourth: "software", fifth: "class-10" },
+        { first: "jeet4", second: "man", third: "39", fourth: "software", fifth: "class-10" },
+        { first: "jeet5", second: "man", third: "39", fourth: "software", fifth: "class-10" }
+      ]
+
+    })
+  </script>
+</body>
+
+</html>

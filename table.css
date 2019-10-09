@@ -1,0 +1,41 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.y-table-view {
+  border: 1px solid #e6e6e6;
+  margin: 10px 0;
+}
+.y-table-box {
+  position: relative;
+  overflow: hidden;
+}
+.y-table-header {
+  border-width: 0 0 1px;
+  overflow: hidden;
+}
+.y-table-view .y-table {
+  position: relative;
+  width: auto;
+  margin: 0;
+}
+.y-table-header .y-table {
+  margin-bottom: -1px;
+}
+.y-table-view .y-table thead tr {
+  background-color: #f2f2f2;
+}
+.y-table-view .y-table th, .y-table-view .y-table td {
+  width: 80px;
+  padding: 5px 0;
+  border-top: none;
+  border-left: none;
+  min-height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  text-align: center;
+  font-weight: 400;
+}
